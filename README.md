@@ -43,7 +43,7 @@ pre-commit install
 python_modern_template/
 │
 ├── src/                  # Source code
-│   └── project_example/  # Main package
+│   └── python_modern_template/  # Main package
 │       ├── __init__.py   # Package initialization
 │       └── main.py       # Main module
 │
@@ -55,8 +55,7 @@ python_modern_template/
 │
 ├── .github/              # GitHub workflow configurations
 ├── .vscode/              # VS Code settings
-├── pyproject.toml        # Project metadata and config
-├── requirements.txt      # Project dependencies
+├── pyproject.toml        # Project metadata and dependencies
 ├── CHANGELOG.md          # Version history
 └── LICENSE               # License information
 ```

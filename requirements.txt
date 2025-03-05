@@ -1,8 +1,0 @@
-# Dipendenze di produzione
-# Esempio:
-# requests==2.28.1
-# numpy==1.23.1
-
-# Dipendenze di sviluppo
-pytest==7.3.1
-pytest-cov==4.1.0
