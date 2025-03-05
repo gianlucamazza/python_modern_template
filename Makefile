@@ -23,7 +23,7 @@ format:
 
 # Verifica statica
 lint:
-	$(VENV)/bin/ruff src tests
+	$(VENV)/bin/ruff check src tests
 	$(VENV)/bin/mypy src tests
 
 # Esecuzione test

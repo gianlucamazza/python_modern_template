@@ -17,8 +17,8 @@ repos:
     hooks:
     -   id: isort
 
--   repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: v0.0.275
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.0
     hooks:
     -   id: ruff
         args: [--fix, --exit-non-zero-on-fix]
@@ -27,4 +27,3 @@ repos:
     rev: v1.3.0
     hooks:
     -   id: mypy
-        additional_dependencies: [types-all]

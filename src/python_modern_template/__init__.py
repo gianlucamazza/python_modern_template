@@ -1,5 +1,5 @@
 """
-Python Modern Template - A professional, modern Python project 
+Python Modern Template - A professional, modern Python project
 following best practices.
 
 This package demonstrates how to structure a Python project with proper packaging,

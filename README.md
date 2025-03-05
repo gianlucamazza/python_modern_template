@@ -44,7 +44,7 @@ python_modern_template/
 │
 ├── src/                  # Source code
 │   └── project_example/  # Main package
-│       ├── __init__.py   # Package initialization 
+│       ├── __init__.py   # Package initialization
 │       └── main.py       # Main module
 │
 ├── tests/                # Test suite
@@ -75,7 +75,7 @@ black src tests
 isort src tests
 
 # Run linters
-ruff src tests
+ruff check src tests
 ```
 
 ## License

@@ -45,16 +45,16 @@ Use descriptive docstrings in Google style format:
 ```python
 def complex_function(param1: str, param2: int) -> dict:
     """Short description of function purpose.
-    
+
     More detailed explanation if needed.
-    
+
     Args:
         param1: Description of first parameter
         param2: Description of second parameter
-        
+
     Returns:
         Description of return value
-        
+
     Raises:
         ValueError: When this happens
     """
